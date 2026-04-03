@@ -1,75 +1,45 @@
 # 📊 Capital Access & Investment Gap in Africa
 
-> Analysing the cost of capital and investment rates across African economies to understand why private investment remains constrained — and what that means for development finance.
-
----
+Looking at how borrowing costs and investment levels interact across African economies, and what this means for economic development.
 
 ## Overview
 
-One of the biggest barriers to growth in Africa isn't a lack of opportunity — it's the cost of accessing capital. Lending rates across much of the continent are 2–3× higher than in comparable emerging markets, making it expensive for businesses to borrow and invest.
+One of the major challenges for economic growth in Africa is not just access to opportunities, but access to affordable capital. In many countries, borrowing costs are high, which makes it difficult for businesses to invest and expand.
 
-This project uses World Bank data to visualise the investment gap across 12 African economies and compare it against global benchmarks, exploring the relationship between high borrowing costs and low investment rates.
-
----
+This project uses World Bank data to explore investment levels across selected African economies and compares them with other markets. It also looks at how high lending rates may be linked to lower levels of investment.
 
 ## Objective
 
-- Compare **gross capital formation (% of GDP)** across African and benchmark countries
-- Visualise how **lending interest rates** relate to investment activity
-- Identify which countries face the sharpest capital access constraints
-
----
+- Compare gross capital formation (% of GDP) across selected countries  
+- Examine the relationship between lending interest rates and investment levels  
+- Identify countries where access to capital is more constrained  
 
 ## Tools
 
-| Tool | Purpose |
-|------|---------|
-| Python 3.x | Core language |
-| pandas | Data manipulation |
-| matplotlib | Visualisation |
-
----
+- Python (pandas, matplotlib)  
+- Basic data analysis and visualization  
 
 ## Data Sources
 
-**World Bank – World Development Indicators (WDI)**
-- Gross capital formation (% of GDP): [`NE.GDI.TOTL.ZS`](https://data.worldbank.org/indicator/NE.GDI.TOTL.ZS)
-- Lending interest rate (%): [`FR.INR.LEND`](https://data.worldbank.org/indicator/FR.INR.LEND)
+- World Bank – World Development Indicators  
+  - Gross capital formation (% of GDP)  
+  - Lending interest rate (%)  
 
-Data are compiled directly in the script for reproducibility (approx. 2021–2022).
-
----
-
-## How to Run
-
-```bash
-pip install pandas matplotlib
-python analysis.py
-```
-
-Chart is saved to `outputs/capital_access_analysis.png`.
-
----
+Data is based on recent available years (around 2021–2022).
 
 ## Key Findings
 
-- African lending rates average **~18%**, versus under 10% in benchmark economies — a structural premium that crowds out private borrowing
-- **Nigeria and Ghana** face lending rates above 25%, making affordable business finance practically inaccessible for most firms
-- **South Africa's investment rate (14.5% of GDP)** falls well below the ~25% threshold associated with sustained growth in emerging markets
-- **Tanzania and Mozambique** show higher investment rates, but this is largely driven by public spending rather than private capital
+- Lending rates in many African countries are significantly higher than in other economies, which can limit private investment  
+- Countries such as Nigeria and Ghana show particularly high borrowing costs  
+- Some economies have relatively low investment rates compared to levels typically associated with sustained growth  
+- In some cases, higher investment levels appear to be driven more by public spending than private sector activity  
 
----
+## Why This Matters
 
-## Why This Matters for Development Finance
+Access to affordable capital plays a key role in economic development. When borrowing is expensive, businesses are less able to invest, which slows growth.
 
-The cost of capital is one of the first things a development finance institution (DFI) like the **AfDB** or **IFC** looks at when assessing a market. When commercial lending is too expensive, private investment dries up — which is precisely the gap that blended finance instruments (guarantees, concessional loans, first-loss facilities) are designed to fill.
-
----
+This type of analysis helps highlight where financial constraints exist and supports understanding of how development finance institutions can help bridge investment gaps.
 
 ## Output
 
-![Capital Access Chart](outputs/capital_access_analysis.png)
-
----
-
-*Part of a four-project portfolio analysing Africa's development challenges, aligned with the African Development Bank's Four Cardinal Points.*
+The project produces a visualization comparing investment levels and lending rates across countries.
