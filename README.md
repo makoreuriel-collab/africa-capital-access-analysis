@@ -6,7 +6,7 @@ Looking at how borrowing costs and investment levels interact across African eco
 
 One of the major challenges for economic growth in Africa is not just access to opportunities, but access to affordable capital. In many countries, borrowing costs are high, which makes it difficult for businesses to invest and expand.
 
-This project uses World Bank data to explore investment levels across selected African economies and compares them with other markets. It also looks at how high lending rates may be linked to lower levels of investment.
+This project uses World Bank data to explore investment levels across selected African economies and compares them with other markets. Using Python, I visualized the relationship between lending rates and investment to better understand how financing conditions affect economic activity.
 
 ## Objective
 
@@ -17,7 +17,7 @@ This project uses World Bank data to explore investment levels across selected A
 ## Tools
 
 - Python (pandas, matplotlib)  
-- Basic data analysis and visualization  
+- Data visualization and basic analysis  
 
 ## Data Sources
 
@@ -42,4 +42,4 @@ This type of analysis helps highlight where financial constraints exist and supp
 
 ## Output
 
-The project produces a visualization comparing investment levels and lending rates across countries.
+The project generates visualizations using Python to compare investment levels and lending rates across countries.
